@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages:MvvmCross5reproPageContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:MvvmCross5repro" 
+    xmlns:pages="clr-namespace:MvvmCross5repro.Pages;assembly=MvvmCross5repro"
+    x:Class="MvvmCross5repro.Pages.MvvmCross5reproPage">
+    <ContentPage.Content>
+        <Button Text="Next Page" Command="{Binding Next}"/>
+    </ContentPage.Content>
+</pages:MvvmCross5reproPageContentPage>
